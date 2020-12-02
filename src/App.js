@@ -1,25 +1,24 @@
+import Menu from './components/menu/menu'
+import Categorias from './components/categorias/categorias';
+import Galeria from './components/galeria/galeria'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <Menu /> 
       </header>
+      <main className = "container">
+        <div className="row mt-4">
+          <Categorias />
+          <Galeria />
+        </div>
+      </main>
     </div>
   );
 }
 
 export default App;
+
