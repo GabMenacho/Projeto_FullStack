@@ -22,7 +22,6 @@ class Categorias extends React.Component {
                     <li className="mb-1 mt-1 text-left">
                         <a className="text-black" href="/">Taynara</a>
                     </li>
-                
                 <br/><br/>
                 
                     <h5>Materiais</h5>
@@ -41,7 +40,6 @@ class Categorias extends React.Component {
                     <li className="mb-1 mt-1 text-left">
                         <a className="text-black" href="/">Tecido</a>
                     </li>
-                
                 <br/><br/>
                 
                     <h5>Tipo</h5>
