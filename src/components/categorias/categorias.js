@@ -24,25 +24,25 @@ class Categorias extends React.Component {
                     </li>
                 <br/><br/>
                 
-                    <h5>Materiais</h5>
+                    <h5>Categoria</h5>
                     <li className="mb-1 mt-1 text-left">
-                        <a className="text-black" href="/">Cerâmica</a>
+                        <a className="text-black" href="/">Ilustração</a>
                     </li>
                     <li className="mb-1 mt-1 text-left">
-                        <a className="text-black" href="/">Digital</a>
+                        <a className="text-black" href="/">Objeto</a>
                     </li>
                     <li className="mb-1 mt-1 text-left">
-                        <a className="text-black" href="/">Madeira</a>
+                        <a className="text-black" href="/">Escultura</a>
                     </li>
                     <li className="mb-1 mt-1 text-left">
-                        <a className="text-black" href="/">Papel</a>
+                        <a className="text-black" href="/">Adereço</a>
                     </li>
                     <li className="mb-1 mt-1 text-left">
-                        <a className="text-black" href="/">Tecido</a>
+                        <a className="text-black" href="/">Figurino</a>
                     </li>
                 <br/><br/>
                 
-                    <h5>Tipo</h5>
+                    <h5>Material</h5>
                     <li className="mb-1 mt-1 text-left">
                         <a className="text-black" href="/">Cerâmica</a>
                     </li>
