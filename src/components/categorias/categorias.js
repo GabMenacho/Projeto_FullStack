@@ -1,9 +1,10 @@
 import React from 'react';
+import {ListGroup} from 'react-bootstrap';
 
 class Categorias extends React.Component {
     render() {
         return (
-            <div className="col-lg-3 col-md-2 d-sm-inline">
+            <div className="col-lg-12 col-md-12 col-sm-12">
                 <br/><br/>
                 <ul className="border">
                     <h5>Artistas</h5>

@@ -1,7 +1,7 @@
 figure > img {
-    padding-top: 40px;
-    width: 150px;
-    height: 185px;
+    padding-top: 30px;
+    width: 220px;
+    height: 255px;
 }
 
 figcaption {
@@ -13,7 +13,7 @@ figcaption {
     padding: 5px;
     width: 150px;
     background-color: lightblue;
-    top: -50px;
+    top: -30px;
     color: black;
     visibility: hidden;
 }
