@@ -1,15 +1,15 @@
 import React from 'react';
 import {Card, CardDeck, } from 'react-bootstrap';
-import kkrankenbruder2 from './kkrankenbruder2.jpg';
-import nieta3 from './nieta3.jpg'
-import Wander4 from './Wander4.jpg'
+import kkrankenbruder from './kkrankenbruder.png';
+import nieta from './nieta.png'
+import wander from './wander.png'
 
 class Cards extends React.Component {
     render() {
         return (
             <CardDeck>
             <Card>
-                <Card.Img variant="top" src={kkrankenbruder2} alt="Imagem de Inspirações" />
+                <Card.Img variant="top" src={kkrankenbruder} alt="Imagem de Inspirações" />
                 <Card.Body>
                 <Card.Title>Ilustrações</Card.Title>
                 <Card.Text>
@@ -22,7 +22,7 @@ class Cards extends React.Component {
                 </Card.Footer>
             </Card>
             <Card>
-            <Card.Img variant="top" src={nieta3} alt="Imagem de Inspirações" />
+            <Card.Img variant="top" src={nieta} alt="Imagem de Inspirações" />
                 <Card.Body>
                 <Card.Title>Esculturas</Card.Title>
                 <Card.Text>
@@ -35,7 +35,7 @@ class Cards extends React.Component {
                 </Card.Footer>
             </Card>
             <Card>
-                <Card.Img variant="top" src={Wander4} alt="Imagem de Inspirações" />
+                <Card.Img variant="top" src={wander} alt="Imagem de Inspirações" />
                 <Card.Body>
                 <Card.Title>Objetos lúdicos</Card.Title>
                 <Card.Text>

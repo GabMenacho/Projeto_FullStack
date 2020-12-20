@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
 import { useState } from 'react';
+import oficinas from './oficinas.png';
+import uma from './uma.png'
+import espaco from './espaco.png'
 
 
 function Carroussel() {
@@ -15,42 +18,39 @@ function Carroussel() {
 				<Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://picsum.photos/seed/picsum/100/200"
+                    src={uma}
                     alt="First slide"
                     witdh="100%"
-                    height = "640px"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Encontre na UMA STORE</h3>
+                    <p>Produções de artistas brasileiros, trajetórias culturais e uma inspiração para adquirir apoiar os artistas da UmaStore.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://picsum.photos/seed/picsum/200/300"
+                    src={oficinas}
                     alt="Third slide"
                     witdh="100%"
-                    height = "640px"
                     />
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Conheça atividades dos artistas</h3>
+                    <p>Encontre oficinas, cursos e produção autônoma dos artistas da UmaStore</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://picsum.photos/seed/picsum/200/300"
+                    src={espaco}
                     alt="Third slide"
                     witdh="100%"
-                    height = "640px"
                     />
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Como as obras são produzidas?</h3>
+                    <p>Conheça o espaço de trabalho dos artistas, ferramentas e materiais.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
