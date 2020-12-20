@@ -1,9 +1,8 @@
 import React from 'react';
-import {Tab} from 'react-bootstrap';
-import {Nav} from 'react-bootstrap';
-import {Row, Col} from 'react-bootstrap';
+import {Tab, Nav, Row, Col} from 'react-bootstrap';
 import FormularioArtista from '../components/formulario/formulario_artista';
 import FormularioContato from '../components/formulario/formulario_contato';
+import '../components/css_paginas/contato.css';
 
 class Contato extends React.Component {
     render() {

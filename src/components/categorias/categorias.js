@@ -1,26 +1,28 @@
 import React from 'react';
-import {ListGroup} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
+import './categorias.css';
 
 class Categorias extends React.Component {
     render() {
         return (
-            <div className="col-lg-12 col-md-12 col-sm-12">
+            <Container>
                 <br/><br/>
                 <ul className="border">
+                    <br />
                     <h5>Artistas</h5>
-                    <li className="mb-1 mt-1 text-left">
+                    <li className="mb-1 mt-1 text-left categorias">
                         <a className="text-black" href="/">Kkranken</a>
                     </li>
-                    <li className="mb-1 mt-1 text-left">
+                    <li className="mb-1 mt-1 text-left categorias">
                         <a className="text-black" href="/">Nychder</a>
                     </li>
-                    <li className="mb-1 mt-1 text-left">
+                    <li className="mb-1 mt-1 text-left categorias">
                         <a className="text-black" href="/">Kcha</a>
                     </li>
-                    <li className="mb-1 mt-1 text-left">
+                    <li className="mb-1 mt-1 text-left categorias">
                         <a className="text-black" href="/">Nieta Sol</a>
                     </li>
-                    <li className="mb-1 mt-1 text-left">
+                    <li className="mb-1 mt-1 text-left categorias">
                         <a className="text-black" href="/">Taynara</a>
                     </li>
                 <br/><br/>
@@ -60,7 +62,7 @@ class Categorias extends React.Component {
                         <a className="text-black" href="/">Tecido</a>
                     </li>
                 </ul>
-            </div>
+            </Container>
         )
     }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Form, Col, Button, Container} from 'react-bootstrap';
+import './formulario.css';
 
 
 class FormularioContato extends React.Component {
@@ -51,10 +52,10 @@ class FormularioContato extends React.Component {
             </Form.Row>
 
             <Form.Group id="formGridCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
+                <Form.Check type="checkbox" label="Quero receber novidades por email" />
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className="btn-formulario">
                 Submit
             </Button>
             </Form>

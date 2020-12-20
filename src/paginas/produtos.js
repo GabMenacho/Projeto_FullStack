@@ -16,9 +16,18 @@ export default function Produtos () {
     }, []);
 
     return (
+            <Container fluid = "sm md lg xl">
             <Row>
-                    <Categorias />
+                <Col md="auto">
+                <Categorias />
+                </Col>
+                <Col>
+                    <Row>
                     {produtos && produtos.map(item => <Produto imagem={item.nomeImagem} nome={item.nome} preco={item.preco} categoria={item.categoria} artista={item.nomeArtista} material={item.material} />)}
+                    </Row>
+                </Col>
+                
             </Row>
+            </Container>
     )
 }

@@ -36,12 +36,12 @@ class FormularioArtista extends React.Component {
             </Form.Row>
 
             <Form.Row>
-                <Form.Group as={Col} controlId="formGridCity">
+                <Form.Group as={Col} controlId="cidade">
                 <Form.Label>Cidade:</Form.Label>
                 <Form.Control />
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridState">
+                <Form.Group as={Col} controlId="estado">
                 <Form.Label>Estado:</Form.Label>
                 <Form.Control as="select" defaultValue="Choose...">
                     <option>SP</option>
@@ -74,7 +74,7 @@ class FormularioArtista extends React.Component {
                 </Form.Control>
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridZip">
+                <Form.Group as={Col} controlId="cep">
                 <Form.Label>CEP:</Form.Label>
                 <Form.Control />
                 </Form.Group>
@@ -82,7 +82,7 @@ class FormularioArtista extends React.Component {
 
             <Form.Group controlId="endereco">
                 <Form.Label>Endereço:</Form.Label>
-                <Form.Control placeholder="1234 Main St" />
+                <Form.Control placeholder="Logradouro, número, bairro" />
             </Form.Group>
 
             <Form.Group controlId="mensagem">
@@ -94,7 +94,7 @@ class FormularioArtista extends React.Component {
                 <Form.Check type="checkbox" label="Quero receber novidades por email" />
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className="btn-formulario">
                 Submit
             </Button>
             </Form>

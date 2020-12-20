@@ -1,7 +1,8 @@
 figure > img {
-    padding-top: 30px;
+    padding-top: 25px;
     width: 220px;
-    height: 255px;
+    height: 250px;
+    margin-bottom: -30px;
 }
 
 figcaption {
@@ -17,3 +18,21 @@ figcaption {
     color: black;
     visibility: hidden;
 }
+
+.custom-btn {
+    background-color: blueviolet !important;
+    border-color: #9e1df5;
+    top: -30px !important;
+    padding: 5px !important;
+    margin-left: 170px;
+    margin-top: -200px;
+  }
+
+  .categorias {
+    width: 200px !important;
+    padding-left: -20px;
+  }
+
+  .produto {
+    margin-bottom: -100px ;
+  }
