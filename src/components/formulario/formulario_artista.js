@@ -95,7 +95,7 @@ class FormularioArtista extends React.Component {
             </Form.Group>
 
             <Button variant="primary" type="submit" className="btn-formulario">
-                Submit
+                Enviar
             </Button>
             </Form>
             </Container>

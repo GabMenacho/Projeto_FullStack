@@ -1,6 +1,7 @@
 import React from 'react';
 import Carroussel from '../components/home_components/carroussel';
 import Cards from '../components/home_components/cards'
+import {Button} from 'react-bootstrap';
 
 class Home extends React.Component {
     render() {

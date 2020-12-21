@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, CardDeck, } from 'react-bootstrap';
+import {Card, CardDeck} from 'react-bootstrap';
 import kkrankenbruder from './kkrankenbruder.png';
 import nieta from './nieta.png'
 import wander from './wander.png'
@@ -49,6 +49,7 @@ class Cards extends React.Component {
                 </Card.Footer>
             </Card>
             </CardDeck>
+            
        )
     }
 }

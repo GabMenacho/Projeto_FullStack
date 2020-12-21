@@ -20,8 +20,9 @@ figcaption {
 }
 
 .custom-btn {
-    background-color: blueviolet !important;
+    background-color: #9e1df5 !important;
     border-color: #9e1df5;
+    color:rgb(255, 255, 255);
     top: -30px !important;
     padding: 5px !important;
     margin-left: 170px;

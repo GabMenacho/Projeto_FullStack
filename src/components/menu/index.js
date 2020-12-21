@@ -7,7 +7,7 @@ function BaseMenu (props){
     const {location} = props
         return (
             <Navbar className = "navbar-dark" bg="dark" expand ="lg" fixed="top">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/home">
                     <img
                         src={logo}
                         width="70"

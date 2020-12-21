@@ -1,6 +1,7 @@
 import './galeria.css'
 import {Button, Container} from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
+import paginaProduto from '../../../paginas/pagina_produto';
 
 export default function Produto(props) {
 
@@ -36,7 +37,7 @@ export default function Produto(props) {
                     </p>
                 </figcaption>
             </figure>
-            <Button href="#" size="sm" className="custom-btn">Comprar</Button>{' '}
+            <Button href="/pagina_produto" size="sm" className="custom-btn">Comprar</Button>
         </Container>        
     )
 }
